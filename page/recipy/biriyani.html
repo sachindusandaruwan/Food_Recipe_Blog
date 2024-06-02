@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biriyani</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+       
+       table {
+            border: 3px solid rgb(0, 0, 0);
+            margin: 0 auto;
+           
+        }
+
+
+       .divImg{
+        height: 300px;
+        width: 250px;
+        /* border: 5px solid black; */
+        box-shadow: 4px 4px 4px 4px gray;
+        margin: 0px;
+        border: 3px solid black;
+    
+        
+       }
+
+
+       .divMain{
+        display: grid;
+        gap: 10px;
+        padding: 30px;
+            
+        margin: 0px;
+      
+       }
+
+       @media screen and (max-width: 575px) {
+            .divMain {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        @media screen and (min-width: 576px) and (max-width: 767px){
+            .divMain {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1399px ){
+            .divMain {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen  and (min-width:1400px){
+            .divMain{
+                grid-template-columns: repeat(4,1fr);
+            }
+           
+        }
+
+       img{
+        width: 250px;
+        height: 300px;
+        
+       }
+       .tableDiv{
+        overflow-x:auto;
+        
+       }
+       table{
+        max-width: 100%;
+       }
+       button{
+        width: 150px;
+        height: 40px;
+        background-color: gray;
+        border-radius: 20px;
+        color:white;
+        margin-left: 50px;
+       }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color: gray; text-align: center;">Biriyani....</h1>
+    
+    <!-- <table border="2px" style="height: 400px; ">
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../assest/image/biriyani 1.jpg" alt="" style="height: 400px;" height="400px" width="320px">
+                </td>
+                <td>
+                    <img src="../assest/image/biriyani 2.jpg" alt="" style="height: 400px;" height="400px">
+                </td>
+                <td>
+                    <img src="../assest/image/biriyani 3.jpg" alt="" style="height: 400px;" height="400px">
+                </td>
+                <td>
+                    <img src="../assest/image/biriyani 4.jpg" alt="" style="height: 400px;" height="400px">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table> -->
+
+    <div class="divMain">
+        <div class="divImg">
+            <img src="/assets/biriyani/biriyani 1.jpg" alt="">
+        </div>
+        <div class="divImg">
+            <img src="/assets/biriyani/biriyani 2.jpg" alt="">
+        </div>
+        <div class="divImg">
+            <img src="/assets/biriyani/biriyani 3.jpg" alt="">
+        </div>
+        <div class="divImg"> 
+            <img src="/assets/biriyani/biriyani 4.jpg" alt="">
+        </div>
+    </div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+   <div class="tableDiv">
+    <table border="1px" style="width: 1200px;">
+        <thead>
+           <tr>
+            <th colspan="3" style="background-color: gray;">Biriyani Recipy</th>
+            
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="31" style="text-align: center;" >Ingredients</td>
+                <td>Chicken</td>
+                <td>600 g</td>
+            </tr>
+            <tr>
+                
+                <td>Curd / Yogurt</td>
+                <td>100 g</td>
+            </tr>
+            <tr>
+                
+                <td>Ginger and garlic paste</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Coriander Powder</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>Garam masala</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>Chili powder</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Turmeric powder</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Cumin powder</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+               
+                <td>Pepper powder</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+               
+                <td>Salt</td>
+                <td>2 tsp</td>
+            </tr>
+            <tr>
+               
+                <td>MAGGI Chicken Seasoning Cube</td>
+                <td>1 Cube</td>
+            </tr>
+            <tr>
+                
+                <td>fresh lemon juice</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Oil</td>
+                <td>3 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Ginger and garlic paste</td>
+                <td>1 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>Star Anise</td>
+                <td>2 oz</td>
+            </tr>
+            <tr>
+               
+                <td>Bay</td>
+                <td>2 Leafs</td>
+            </tr>
+            <tr>
+               
+                <td>Cardamom</td>
+                <td>3 Mediums</td>
+            </tr>
+            <tr>
+                
+                <td>cloves</td>
+                <td>3 oz</td>
+            </tr>
+            <tr>
+                
+                <td>Cinnamon</td>
+                <td>1 Stick</td>
+            </tr>
+            <tr>
+                
+                <td>Onion</td>
+                <td>400 g</td>
+            </tr>
+            <tr>
+                
+                <td>Tomato</td>
+                <td>500 g</td>
+            </tr>
+            <tr>
+                
+                <td>Chili powder</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Turmeric powder</td>
+                <td>0.5 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Coriander powder</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Garam masala</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Cumin powder</td>
+                <td>0.5 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Mint Leaves</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+                
+                <td>Coriander leaves</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+                
+                <td>Rose Water</td>
+                <td>0.5 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Orange food coloring</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Cooked Ghee Rice</td>
+                <td>600 g</td>
+            </tr>
+            <tr>
+                <th colspan="3">Instructions</th>
+            </tr>
+            <tr>
+                <td colspan="2">Marinate the chicken using all the ingredients mentioned for marination .</td>
+                
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Place a pot on a high heat stove with oil.</td>
+                
+                <td>1 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add 1 tbsp of ginger / garlic paste into this</td>
+                
+                <td>1 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add in the Star anise, bay leaves, cardamom, cloves and cinnamon stick into this.</td>
+               
+                <td>3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">When golden brown; add in chopped onions and diced tomatoes</td>
+                
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Whilst mixing add all the spices mentioned for the rice (chilli powder, coriander powder, Cumin powder, Garam Masala powder and Turmeric</td>
+                
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add the marinated chicken, mint leaves, coriander leaves</td>
+                
+                <td>3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Close the lid and let the chicken cook in medium flame for about 10 minutes.</td>
+                
+                <td>10 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">When the chicken is cooked add the cooked ghee rice into it.</td>
+               
+                <td>1 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Pour in ½ tbsp rose water and add few drops of orange food coloring.</td>
+               
+                <td>1 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add mint leaves, coriander leaves and fried onions few and close the lid.</td>
+               
+                <td>3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Keep for 15 minutes at low flame</td>
+               
+                <td>15 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Garnish with fried onion, cashew nuts, coriander leaves and serve</td>
+               
+                <td>2 min</td>
+            </tr>
+           
+        </tbody>
+
+    </table>
+    </div>
+    <br>
+    <br>
+    <button onclick="location.href='/page/content.html'"><h3>Back</h3></button>
+       
+    
+    
+</body>
+</html>

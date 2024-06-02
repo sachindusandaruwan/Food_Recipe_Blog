@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodles</title>
+    <style>
+    table{
+       
+       border: 3px solid rgb(0, 0, 0);
+       /* justify-content: center; */
+       margin: 0 auto;
+      
+       
+      }
+
+      .divImg{
+       height: 300px;
+       width: 250px;
+       /* border: 5px solid black; */
+       box-shadow: 4px 4px 4px 4px  gray;
+   
+       
+      }
+      .divMain{
+       margin: 40px;
+      padding: 30px;
+       /* display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border: 2px solid  chocolate; */
+       display: grid;
+       gap: 10px;
+       
+       /* justify-content: center; */
+      }
+
+      @media screen and (max-width: 575px) {
+            .divMain {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        @media screen and (min-width: 576px) and (max-width: 767px){
+            .divMain {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1399px ){
+            .divMain {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen  and (min-width:1400px){
+            .divMain{
+                grid-template-columns: repeat(4,1fr);
+            }
+           
+        }
+
+      img{
+       width: 250px;
+       height: 300px;
+      }
+      
+      .tableDiv{
+        overflow-x:auto;
+       }
+       table{
+        max-width: 100%;
+       }
+       button{
+        width: 150px;
+        height: 40px;
+        background-color: gray;
+        border-radius: 20px;
+        color:white;
+        margin-left: 50px;
+       }
+
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color: gray; text-align: center;">Kottu....</h1>
+    <div class="divMain">
+        <div class="divImg">
+            <img src="/assets/noodles/noodles 1.jpg" alt="">
+        </div>
+        <div class="divImg">
+            <img src="/assets/noodles/noodles 2.jpg" alt="">
+        </div>
+        <div class="divImg">
+            <img src="/assets/noodles/noodles 3.jpg" alt="">
+        </div>
+        <div class="divImg"> 
+            <img src="/assets/noodles/noodles 4.jpg" alt="">
+        </div>
+    </div>
+    
+    
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <div class="tableDiv">
+    <table border="1px" style="width: 1200px;">
+        <thead>
+           <tr>
+            <th colspan="3" style="background-color: yellow;">Noodles Recipy</th>
+            
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="16" >Ingredients</td>
+                <td>MAGGI Noodles</td>
+                <td>4 packets</td>
+            </tr>
+            <tr>
+                
+                <td>Chicken</td>
+                <td>200 g</td>
+            </tr>
+            <tr>
+                
+                <td>Prawns</td>
+                <td>200 g</td>
+            </tr>
+            <tr>
+                
+                <td>Mushroom</td>
+                <td>200 g</td>
+            </tr>
+            <tr>
+               
+                <td>Carrots</td>
+                <td>50 g</td>
+            </tr>
+            <tr>
+               
+                <td>Celery</td>
+                <td>50 g</td>
+            </tr>
+            <tr>
+                
+                <td>Bell pepper</td>
+                <td>50 g</td>
+            </tr>
+            <tr>
+                
+                <td>Spring Onions</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+               
+                <td>Corn oil</td>
+                <td>5 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>Sesame oil</td>
+                <td>3 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>Chopped Ginger</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+                
+                <td>Chopped Garlic</td>
+                <td>20 g</td>
+            </tr>
+            <tr>
+                
+                <td>Soya sauce</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Oyster sauce</td>
+                <td>3 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>Salt, table</td>
+                <td>0.5 g</td>
+            </tr>
+            <tr>
+               
+                <td>Black pepper</td>
+                <td>3 g</td>
+            </tr>
+           
+            <tr>
+                <th colspan="3">Instructions</th>
+            </tr>
+            <tr>
+                <td colspan="2">Boil the MAGGI noodles and strain the water.</td>
+                
+                <td>4 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Cut the chicken, prawns and vegetables into small cubes.</td>
+                
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Heat the oil in a frying pan or in a wok.</td>
+                
+                <td>1 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sauté the chicken and prawns for few minutes and add sesame oil.</td>
+               
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add ginger and garlic and cook for a few minutes.</td>
+                
+                <td>3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add the vegetables and cook for another few minutes.</td>
+                
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add the MAGGI noodles, soya sauce and oyster sauce.</td>
+                
+                <td>2 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Season with salt and pepper.</td>
+                
+                <td>3 min</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+
+    </div>
+    <br>
+    <br>
+    <button onclick="location.href='/page/content.html'"><h3>Back</h3></button>
+    
+</body>
+</html>

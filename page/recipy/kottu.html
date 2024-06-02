@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kottu</title>
+    <style>
+        table{
+       
+       border: 3px solid rgb(0, 0, 0);
+       /* justify-content: center; */
+       margin: 0 auto;
+      
+       
+      }
+
+      .divImg{
+       height: 300px;
+       width: 250px;
+       /* border: 5px solid black; */
+       box-shadow: 4px 4px 4px 4px  gray;
+   
+       
+      }
+      .divMain{
+       margin: 40px;
+      padding: 30px;
+       /* display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border: 2px solid  chocolate; */
+       display: grid;
+       /* gap: 10px; */
+       grid-gap: 40px;
+       margin-top: 50px;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       
+       /* justify-content: center; */
+      }
+
+      /* @media screen and (max-width: 575px) {
+            .divMain {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        @media screen and (min-width: 576px) and (max-width: 767px){
+            .divMain {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1399px ){
+            .divMain {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen  and (min-width:1400px){
+            .divMain{
+                grid-template-columns: repeat(4,1fr);
+            }
+           
+        } */
+
+      img{
+       width: 250px;
+       height: 300px;
+      }
+
+      .tableDiv{
+        overflow-x:auto;
+       }
+       h1{
+        background-color: gray;
+        font-size: 40px;
+        text-align: center;
+
+        transition: all 1s ease-out 0.2s;
+    }
+
+    table{
+        max-width: 100%;
+       }
+
+       
+    button{
+        width: 150px;
+        height: 40px;
+        background-color: gray;
+        border-radius: 20px;
+        color:white;
+        margin-left: 50px;
+       }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Kottu....</h1>
+
+    <div class="divMain">
+        <div class="divImg">
+            <img src="/assets/kottu/kottu 1.jpg" alt="">
+        </div>
+        <div class="divImg">
+            <img src="/assets/kottu/kottu 2.jpg" alt="">
+        </div>
+        <div class="divImg">
+            <img src="/assets/kottu/kottu 3.jpg" alt="">
+        </div>
+        <div class="divImg"> 
+            <img src="/assets/kottu/kottu.jpg" alt="">
+        </div>
+    </div>
+
+    
+    <!-- <table border="2px" style="height: 400px; ">
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="assignmenAssest/kottu.jpg" alt="" style="height: 400px;" height="400px">
+                </td>
+                <td>
+                    <img src="assignmenAssest/kottu 2.jpg" alt="" style="height: 400px;" height="400px">
+                </td>
+                <td>
+                    <img src="assignmenAssest/kottu 1.jpg" alt="" style="height: 400px;" height="400px">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table> -->
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+   <div class="tableDiv">
+    <table border="1px" style="width: 1200px;">
+        <thead>
+           <tr>
+            <th colspan="3" style="background-color: gray;">Kottu Recipy</th>
+            
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="17" >Ingredients</td>
+                <td>Oil</td>
+                <td>2 tbsp</td>
+            </tr>
+            <tr>
+                
+                <td>Egg</td>
+                <td>1 Medium</td>
+            </tr>
+            <tr>
+                
+                <td>Ginger</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Garlic</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+               
+                <td>Salt</td>
+                <td>1 oz</td>
+            </tr>
+            <tr>
+               
+                <td>Pepper</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                
+                <td>Pandan Leaves</td>
+                <td>6 Leafs</td>
+            </tr>
+            <tr>
+                
+                <td>Curry Leaves</td>
+                <td>6 Leafs</td>
+            </tr>
+            <tr>
+               
+                <td>Green Chillis</td>
+                <td>3 Mediums</td>
+            </tr>
+            <tr>
+               
+                <td>Carrots</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+               
+                <td>Onion</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+                
+                <td>Roast Chicken</td>
+                <td>0.25 Medium</td>
+            </tr>
+            <tr>
+                
+                <td>Godamba Roti</td>
+                <td>2 Mediums</td>
+            </tr>
+            <tr>
+                
+                <td>Chicken Gravy</td>
+                <td>4 tbsp</td>
+            </tr>
+            <tr>
+               
+                <td>MAggi Chicken Seasoning Cube</td>
+                <td>1 cube</td>
+            </tr>
+            <tr>
+               
+                <td>Leeks</td>
+                <td>15 g</td>
+            </tr>
+            <tr>
+               
+                <td>Tomato</td>
+                <td>25 g</td>
+            </tr>
+            <tr>
+                <th colspan="3">Instructions</th>
+            </tr>
+            <tr>
+                <td colspan="2">Add oil to a pan</td>
+                
+                <td>3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add egg, ginger and garlic and mix</td>
+                
+                <td>4 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add salt and pepper and mix.</td>
+                
+                <td>4 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add pandan leaves and curry leaves and mix.</td>
+               
+                <td>4 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add green chillies, carrot, onions, and mix</td>
+                
+                <td>4 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add chicken and mix.</td>
+                
+                <td>5 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add the godamba rotti and gravy and mix well.</td>
+                
+                <td>4 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Add Maggi Chicken Seasoning Cube and mix well.</td>
+                
+                <td>3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2">Finally add Leeks, Tomato and mix well.</td>
+               
+                <td>4 min</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+<br>
+<br>
+<button onclick="location.href='/page/content.html'"><h3>Back</h3></button>
+    
+</body>
+</html>
